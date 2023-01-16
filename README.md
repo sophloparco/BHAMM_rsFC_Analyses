@@ -7,10 +7,14 @@ EMAIL: soph.loparco@gmail.com
 2) create a to_denoise.csv file with the list of participants to denoise listed in a single column with the header "ID"
 
 3) Denoise fmriprep outputs:
+
     Summary: This step will take images and confounds produced by fmriprep's initial preprocessing and perform denoising. 
+    
     Outputs: Denoised Images will be made in a folder titled Denoised_Images
 
     i. Open the scripts/Denoise.py script: 
+        
+
         Edit path variables initialized under line 648: "if __name__=='__main__':"
 
         project_folder --> path to folder containing your BIDS folder
@@ -18,10 +22,14 @@ EMAIL: soph.loparco@gmail.com
         analysis_folder --> the path to this analysis workspace
 
 4) Create the Correlation Matrices: 
+    
     Summary: Once the nifti images are denoised you can create the correlation matrices for your participants. 
+    
     Outputs: Matrices that will be used by PLS connectivity and thus must be saved as [participant ID].txt files in the tab-delimited format 
  
     i. Open the scripts/wf.py script:
+        
+
         Edit the path variables initialized under line 99: "if __name__=='__main__':"
 
         project_folder --> path to folder containing your BIDS folder
@@ -38,7 +46,9 @@ EMAIL: soph.loparco@gmail.com
 
 
 5) PLS Connectivity Setup: 
+    
     Summary: PLS Connectivity will be run in the PLS_Analyses_[DenoiseType] directory created in the previous step. 
+    
     This folder will need to include:
 
         i. The folders of different types of PLS's you will run
@@ -56,4 +66,4 @@ EMAIL: soph.loparco@gmail.com
             -saveOutputFiles.m
             -stackPLSdatamat.m
 
-	ii. VisualResults folder: should contain vis_1.py for visualizing BSR matrices specified within the same enclosed folder and r scripts for plotting correlation profiles etc. 
+	   ii. VisualResults folder: should contain vis_1.py for visualizing BSR matrices specified within the same enclosed folder and r scripts for plotting correlation profiles etc. 
