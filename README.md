@@ -2,7 +2,7 @@ AUTHOR: Sophia LoParco
 
 EMAIL: soph.loparco@gmail.com
 
-1) Setup python virtual environment by following the instructions in README_python_environment_setup.txt
+1) Setup python virtual environment by following the instructions in environment_setup_description.txt
 
 2) create a to_denoise.csv file with the list of participants to denoise listed in a single column with the header "ID"
 
