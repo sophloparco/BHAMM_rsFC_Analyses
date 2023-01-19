@@ -56,9 +56,9 @@ EMAIL: soph.loparco@gmail.com
         iii. Your matrices created in the previous step
         iiii. A folder of time-series titled OutlierVolumes_FD-0.5_DVARS-2.0 created in the previous step
 
-    Within a PLS Analysis folder (e.g., PLS_Age_20-60_peri_1-Group) there should be:
+    Within a PLS Analysis folder (e.g., Example_PLS_Analysis) there should be:
 
-        i. The scripts folder: this folder should contain your matlab scripts for running PLS connectivity. mainPLS_rsWholeBrainHC.m is the main script for conducting the analyses
+        i. The scripts folder: this folder should contain your matlab scripts for running PLS connectivity. mainPLS_rsWholeBrainHC.m is the main script for conducting the analyses. These scripts were originally written by Charana Rajagopal (link to her git repo: https://github.com/Charana22/pls_connectivity)
 
             -displayPLSresults.m
             -create_colourbar.m
@@ -66,4 +66,6 @@ EMAIL: soph.loparco@gmail.com
             -saveOutputFiles.m
             -stackPLSdatamat.m
 
-	   ii. VisualResults folder: should contain vis_1.py for visualizing BSR matrices specified within the same enclosed folder and r scripts for plotting correlation profiles etc. 
+	   ii. VisualResults folder: should contain vis_1.py for visualizing BSR matrices specified within the same enclosed folder and r scripts for plotting correlation profiles etc.
+
+        
