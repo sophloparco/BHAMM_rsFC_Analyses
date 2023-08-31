@@ -1,6 +1,6 @@
 AUTHOR: Sophia LoParco
 
-EMAIL: soph.loparco@gmail.com
+EMAIL: sophia.b.loparco@mcgill.ca
 
 1) Setup python virtual environment by following the instructions in environment_setup_description.txt
 
